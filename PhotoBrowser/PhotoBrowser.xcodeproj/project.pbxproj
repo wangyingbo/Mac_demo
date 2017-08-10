@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032AD61B1F3C53EB00E62CCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD61A1F3C53EB00E62CCA /* AppDelegate.m */; };
+		032AD61E1F3C53EB00E62CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD61D1F3C53EB00E62CCA /* main.m */; };
+		032AD6211F3C53EB00E62CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD6201F3C53EB00E62CCA /* ViewController.m */; };
+		032AD6231F3C53EB00E62CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032AD6221F3C53EB00E62CCA /* Assets.xcassets */; };
+		032AD6261F3C53EB00E62CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032AD6241F3C53EB00E62CCA /* Main.storyboard */; };
+		032AD6311F3C53EB00E62CCA /* PhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD6301F3C53EB00E62CCA /* PhotoBrowserTests.m */; };
+		032AD63C1F3C53EB00E62CCA /* PhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD63B1F3C53EB00E62CCA /* PhotoBrowserUITests.m */; };
+		032AD64C1F3C547900E62CCA /* MasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD64A1F3C547900E62CCA /* MasterVC.m */; };
+		032AD64D1F3C547900E62CCA /* MasterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032AD64B1F3C547900E62CCA /* MasterVC.xib */; };
+		032AD6531F3C572500E62CCA /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD6521F3C572500E62CCA /* PhotoModel.m */; };
+		032AD6561F3C583500E62CCA /* WormModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AD6551F3C583500E62CCA /* WormModel.m */; };
+		032AD65D1F3C5A1100E62CCA /* gao2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AD6581F3C5A1100E62CCA /* gao2.jpg */; };
+		032AD65E1F3C5A1100E62CCA /* gao3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AD6591F3C5A1100E62CCA /* gao3.jpg */; };
+		032AD65F1F3C5A1100E62CCA /* gao4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AD65A1F3C5A1100E62CCA /* gao4.jpg */; };
+		032AD6601F3C5A1100E62CCA /* gao5.png in Resources */ = {isa = PBXBuildFile; fileRef = 032AD65B1F3C5A1100E62CCA /* gao5.png */; };
+		032AD6611F3C5A1100E62CCA /* gao6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AD65C1F3C5A1100E62CCA /* gao6.jpg */; };
+		032AD6631F3C5A7B00E62CCA /* gao1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032AD6621F3C5A7B00E62CCA /* gao1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032AD62D1F3C53EB00E62CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AD60E1F3C53EA00E62CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AD6151F3C53EA00E62CCA;
+			remoteInfo = PhotoBrowser;
+		};
+		032AD6381F3C53EB00E62CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032AD60E1F3C53EA00E62CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032AD6151F3C53EA00E62CCA;
+			remoteInfo = PhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032AD6161F3C53EB00E62CCA /* PhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AD6191F3C53EB00E62CCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		032AD61A1F3C53EB00E62CCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032AD61D1F3C53EB00E62CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032AD61F1F3C53EB00E62CCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032AD6201F3C53EB00E62CCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		032AD6221F3C53EB00E62CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032AD6251F3C53EB00E62CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032AD6271F3C53EB00E62CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AD62C1F3C53EB00E62CCA /* PhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AD6301F3C53EB00E62CCA /* PhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserTests.m; sourceTree = "<group>"; };
+		032AD6321F3C53EB00E62CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AD6371F3C53EB00E62CCA /* PhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032AD63B1F3C53EB00E62CCA /* PhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserUITests.m; sourceTree = "<group>"; };
+		032AD63D1F3C53EB00E62CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032AD6491F3C547900E62CCA /* MasterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterVC.h; sourceTree = "<group>"; };
+		032AD64A1F3C547900E62CCA /* MasterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterVC.m; sourceTree = "<group>"; };
+		032AD64B1F3C547900E62CCA /* MasterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterVC.xib; sourceTree = "<group>"; };
+		032AD6511F3C572500E62CCA /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		032AD6521F3C572500E62CCA /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		032AD6541F3C583500E62CCA /* WormModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WormModel.h; sourceTree = "<group>"; };
+		032AD6551F3C583500E62CCA /* WormModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WormModel.m; sourceTree = "<group>"; };
+		032AD6581F3C5A1100E62CCA /* gao2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gao2.jpg; sourceTree = "<group>"; };
+		032AD6591F3C5A1100E62CCA /* gao3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gao3.jpg; sourceTree = "<group>"; };
+		032AD65A1F3C5A1100E62CCA /* gao4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gao4.jpg; sourceTree = "<group>"; };
+		032AD65B1F3C5A1100E62CCA /* gao5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gao5.png; sourceTree = "<group>"; };
+		032AD65C1F3C5A1100E62CCA /* gao6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gao6.jpg; sourceTree = "<group>"; };
+		032AD6621F3C5A7B00E62CCA /* gao1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gao1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032AD6131F3C53EA00E62CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD6291F3C53EB00E62CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD6341F3C53EB00E62CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032AD60D1F3C53EA00E62CCA = {
+			isa = PBXGroup;
+			children = (
+				032AD6181F3C53EB00E62CCA /* PhotoBrowser */,
+				032AD62F1F3C53EB00E62CCA /* PhotoBrowserTests */,
+				032AD63A1F3C53EB00E62CCA /* PhotoBrowserUITests */,
+				032AD6171F3C53EB00E62CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032AD6171F3C53EB00E62CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6161F3C53EB00E62CCA /* PhotoBrowser.app */,
+				032AD62C1F3C53EB00E62CCA /* PhotoBrowserTests.xctest */,
+				032AD6371F3C53EB00E62CCA /* PhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032AD6181F3C53EB00E62CCA /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6571F3C59EF00E62CCA /* Images */,
+				032AD6501F3C56E700E62CCA /* Model */,
+				032AD64F1F3C56C600E62CCA /* AppDelegate */,
+				032AD64E1F3C568600E62CCA /* GUI */,
+				032AD6221F3C53EB00E62CCA /* Assets.xcassets */,
+				032AD6241F3C53EB00E62CCA /* Main.storyboard */,
+				032AD6271F3C53EB00E62CCA /* Info.plist */,
+				032AD61C1F3C53EB00E62CCA /* Supporting Files */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		032AD61C1F3C53EB00E62CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032AD61D1F3C53EB00E62CCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032AD62F1F3C53EB00E62CCA /* PhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6301F3C53EB00E62CCA /* PhotoBrowserTests.m */,
+				032AD6321F3C53EB00E62CCA /* Info.plist */,
+			);
+			path = PhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		032AD63A1F3C53EB00E62CCA /* PhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032AD63B1F3C53EB00E62CCA /* PhotoBrowserUITests.m */,
+				032AD63D1F3C53EB00E62CCA /* Info.plist */,
+			);
+			path = PhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		032AD64E1F3C568600E62CCA /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6491F3C547900E62CCA /* MasterVC.h */,
+				032AD64A1F3C547900E62CCA /* MasterVC.m */,
+				032AD64B1F3C547900E62CCA /* MasterVC.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		032AD64F1F3C56C600E62CCA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6191F3C53EB00E62CCA /* AppDelegate.h */,
+				032AD61A1F3C53EB00E62CCA /* AppDelegate.m */,
+				032AD61F1F3C53EB00E62CCA /* ViewController.h */,
+				032AD6201F3C53EB00E62CCA /* ViewController.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		032AD6501F3C56E700E62CCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6511F3C572500E62CCA /* PhotoModel.h */,
+				032AD6521F3C572500E62CCA /* PhotoModel.m */,
+				032AD6541F3C583500E62CCA /* WormModel.h */,
+				032AD6551F3C583500E62CCA /* WormModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		032AD6571F3C59EF00E62CCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				032AD6621F3C5A7B00E62CCA /* gao1.jpg */,
+				032AD6581F3C5A1100E62CCA /* gao2.jpg */,
+				032AD6591F3C5A1100E62CCA /* gao3.jpg */,
+				032AD65A1F3C5A1100E62CCA /* gao4.jpg */,
+				032AD65B1F3C5A1100E62CCA /* gao5.png */,
+				032AD65C1F3C5A1100E62CCA /* gao6.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032AD6151F3C53EA00E62CCA /* PhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AD6401F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowser" */;
+			buildPhases = (
+				032AD6121F3C53EA00E62CCA /* Sources */,
+				032AD6131F3C53EA00E62CCA /* Frameworks */,
+				032AD6141F3C53EA00E62CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBrowser;
+			productName = PhotoBrowser;
+			productReference = 032AD6161F3C53EB00E62CCA /* PhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032AD62B1F3C53EB00E62CCA /* PhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AD6431F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowserTests" */;
+			buildPhases = (
+				032AD6281F3C53EB00E62CCA /* Sources */,
+				032AD6291F3C53EB00E62CCA /* Frameworks */,
+				032AD62A1F3C53EB00E62CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AD62E1F3C53EB00E62CCA /* PBXTargetDependency */,
+			);
+			name = PhotoBrowserTests;
+			productName = PhotoBrowserTests;
+			productReference = 032AD62C1F3C53EB00E62CCA /* PhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		032AD6361F3C53EB00E62CCA /* PhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032AD6461F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowserUITests" */;
+			buildPhases = (
+				032AD6331F3C53EB00E62CCA /* Sources */,
+				032AD6341F3C53EB00E62CCA /* Frameworks */,
+				032AD6351F3C53EB00E62CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032AD6391F3C53EB00E62CCA /* PBXTargetDependency */,
+			);
+			name = PhotoBrowserUITests;
+			productName = PhotoBrowserUITests;
+			productReference = 032AD6371F3C53EB00E62CCA /* PhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032AD60E1F3C53EA00E62CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王颖博";
+				TargetAttributes = {
+					032AD6151F3C53EA00E62CCA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B9653986K8;
+						ProvisioningStyle = Automatic;
+					};
+					032AD62B1F3C53EB00E62CCA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2T9CHG78WE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032AD6151F3C53EA00E62CCA;
+					};
+					032AD6361F3C53EB00E62CCA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2T9CHG78WE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032AD6151F3C53EA00E62CCA;
+					};
+				};
+			};
+			buildConfigurationList = 032AD6111F3C53EA00E62CCA /* Build configuration list for PBXProject "PhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032AD60D1F3C53EA00E62CCA;
+			productRefGroup = 032AD6171F3C53EB00E62CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032AD6151F3C53EA00E62CCA /* PhotoBrowser */,
+				032AD62B1F3C53EB00E62CCA /* PhotoBrowserTests */,
+				032AD6361F3C53EB00E62CCA /* PhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032AD6141F3C53EA00E62CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AD65D1F3C5A1100E62CCA /* gao2.jpg in Resources */,
+				032AD6601F3C5A1100E62CCA /* gao5.png in Resources */,
+				032AD65E1F3C5A1100E62CCA /* gao3.jpg in Resources */,
+				032AD6231F3C53EB00E62CCA /* Assets.xcassets in Resources */,
+				032AD6631F3C5A7B00E62CCA /* gao1.jpg in Resources */,
+				032AD6611F3C5A1100E62CCA /* gao6.jpg in Resources */,
+				032AD6261F3C53EB00E62CCA /* Main.storyboard in Resources */,
+				032AD65F1F3C5A1100E62CCA /* gao4.jpg in Resources */,
+				032AD64D1F3C547900E62CCA /* MasterVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD62A1F3C53EB00E62CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD6351F3C53EB00E62CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032AD6121F3C53EA00E62CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AD6561F3C583500E62CCA /* WormModel.m in Sources */,
+				032AD6211F3C53EB00E62CCA /* ViewController.m in Sources */,
+				032AD6531F3C572500E62CCA /* PhotoModel.m in Sources */,
+				032AD61E1F3C53EB00E62CCA /* main.m in Sources */,
+				032AD64C1F3C547900E62CCA /* MasterVC.m in Sources */,
+				032AD61B1F3C53EB00E62CCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD6281F3C53EB00E62CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AD6311F3C53EB00E62CCA /* PhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032AD6331F3C53EB00E62CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032AD63C1F3C53EB00E62CCA /* PhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032AD62E1F3C53EB00E62CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AD6151F3C53EA00E62CCA /* PhotoBrowser */;
+			targetProxy = 032AD62D1F3C53EB00E62CCA /* PBXContainerItemProxy */;
+		};
+		032AD6391F3C53EB00E62CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032AD6151F3C53EA00E62CCA /* PhotoBrowser */;
+			targetProxy = 032AD6381F3C53EB00E62CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032AD6241F3C53EB00E62CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032AD6251F3C53EB00E62CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032AD63E1F3C53EB00E62CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		032AD63F1F3C53EB00E62CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		032AD6411F3C53EB00E62CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B9653986K8;
+				INFOPLIST_FILE = PhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		032AD6421F3C53EB00E62CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B9653986K8;
+				INFOPLIST_FILE = PhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		032AD6441F3C53EB00E62CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = PhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBrowser.app/Contents/MacOS/PhotoBrowser";
+			};
+			name = Debug;
+		};
+		032AD6451F3C53EB00E62CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = PhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBrowser.app/Contents/MacOS/PhotoBrowser";
+			};
+			name = Release;
+		};
+		032AD6471F3C53EB00E62CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = PhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoBrowser;
+			};
+			name = Debug;
+		};
+		032AD6481F3C53EB00E62CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2T9CHG78WE;
+				INFOPLIST_FILE = PhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.wangyingbo.www.PhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032AD6111F3C53EA00E62CCA /* Build configuration list for PBXProject "PhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AD63E1F3C53EB00E62CCA /* Debug */,
+				032AD63F1F3C53EB00E62CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032AD6401F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AD6411F3C53EB00E62CCA /* Debug */,
+				032AD6421F3C53EB00E62CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		032AD6431F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AD6441F3C53EB00E62CCA /* Debug */,
+				032AD6451F3C53EB00E62CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		032AD6461F3C53EB00E62CCA /* Build configuration list for PBXNativeTarget "PhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032AD6471F3C53EB00E62CCA /* Debug */,
+				032AD6481F3C53EB00E62CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032AD60E1F3C53EA00E62CCA /* Project object */;
+}
